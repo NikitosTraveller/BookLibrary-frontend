@@ -28,7 +28,7 @@ export const getUserAsync = createAsyncThunk(
   export const loginUserAsync = createAsyncThunk(
     'userSlice/loginUser',
     async (userModel: UserModel) => {
-        const response = await axios.post("user/login", {
+        const response = await axios.post(apiUrl + "user/login", {
             password: userModel.password,
             username: userModel.username
         })
@@ -42,7 +42,7 @@ export const getUserAsync = createAsyncThunk(
   export const registerUserAsync = createAsyncThunk(
     'userSlice/registerUser',
     async (userModel: UserModel) => {
-        const response = await axios.post("user/register", {
+        const response = await axios.post(apiUrl + "user/register", {
             password: userModel.password,
             firstName: userModel.firstName,
             lastName: userModel.lastName,
