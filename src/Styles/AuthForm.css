@@ -1,0 +1,16 @@
+﻿.authForm {
+  width: 20%;
+  margin-left: 40%;
+  padding: 15px;
+  margin: auto;
+}
+
+.authForm .form-floating:focus-within {
+  z-index: 2;
+}
+
+.authForm input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
