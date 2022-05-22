@@ -10,7 +10,7 @@ import {
     FieldControl,
     Validators,
  } from "react-reactive-form";
-import { TextInput } from '../Form';
+import { PasswordInput, TextInput } from '../Form';
 
 export function Login()
 {
@@ -59,7 +59,7 @@ export function Login()
 
                         <FieldControl
                             name="password"
-                            render={TextInput}
+                            render={PasswordInput}
                             meta={{ label: "Password" }} />
 
                         <button

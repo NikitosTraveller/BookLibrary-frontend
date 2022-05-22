@@ -11,7 +11,7 @@ import {
     FieldControl,
     Validators,
  } from "react-reactive-form";
-import { TextInput } from '../Form';
+import { PasswordInput, TextInput } from '../Form';
 
 export function Register()
 {
@@ -74,12 +74,12 @@ export function Register()
 
                             <FieldControl
                                 name="password"
-                                render={TextInput}
+                                render={PasswordInput}
                                 meta={{ label: "Password" }} />
 
                             <FieldControl
                                 name="confirmPassword"
-                                render={TextInput}
+                                render={PasswordInput}
                                 meta={{ label: "Confirm Password" }} />
 
                             <button
