@@ -1,6 +1,6 @@
 ﻿import {SyntheticEvent, useState} from 'react';
 import { useNavigate } from "react-router-dom";
-import { UserModel } from '../../Models/UserModel';
+import { UserModel } from '../../models/UserModel';
 import { useAppDispatch } from '../../hooks';
 import { loginUserAsync } from './redux/actions';
 

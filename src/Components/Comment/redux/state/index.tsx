@@ -1,4 +1,4 @@
-import { Comment } from "../../../../Models/Comment";
+import { Comment } from "../../../../models/Comment";
 
 export interface CommentState {
     comments: Comment[];

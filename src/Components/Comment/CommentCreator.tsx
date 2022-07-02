@@ -1,7 +1,7 @@
 ﻿import React, {SyntheticEvent, useState} from 'react';
 import { useAppDispatch } from '../../hooks';
 import { createCommentAsync } from './redux/actions';
-import { CommentModel } from '../../Models/CommentModel';
+import { CommentModel } from '../../models/CommentModel';
 
 interface IProps
 {

@@ -1,4 +1,4 @@
-import { Book } from "../../../../Models/Book";
+import { Book } from "../../../../models/Book";
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { getBooksAsync, getBookAsync, uploadBookAsync, deleteBookAsync, downloadBookAsync } from "../actions";
 import { initialState } from "../state";

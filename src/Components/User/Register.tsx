@@ -2,7 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { registerUserAsync } from './redux/actions';
-import { UserModel } from '../../Models/UserModel';
+import { UserModel } from '../../models/UserModel';
 import { loginRedirect } from './redux/selectors';
 
 import {

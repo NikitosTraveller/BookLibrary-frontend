@@ -1,4 +1,4 @@
-import { Comment } from "../../../../Models/Comment";
+import { Comment } from "../../../../models/Comment";
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { createCommentAsync, deleteCommentAsync, getCommentsAsync } from "../actions";
