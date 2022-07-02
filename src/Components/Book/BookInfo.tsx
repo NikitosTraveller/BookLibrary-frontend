@@ -2,7 +2,7 @@
 import { CommentCreator } from '../Comment/CommentCreator';
 import { CommentList } from '../Comment/CommentList';
 
-import '../../Styles/BookInfoPage.css';
+import '../../styles/bookInfoPage.css';
 import { useParams } from 'react-router';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { getSelectedBook } from './redux/selectors';

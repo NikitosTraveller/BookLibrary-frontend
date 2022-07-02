@@ -1,5 +1,5 @@
 ﻿import { Link, useNavigate } from 'react-router-dom';
-import '../Styles/NavMenu.css';
+import '../styles/navMenu.css';
 import { useAppDispatch, useAppSelector } from '../hooks';
 import { selectUser } from './User/redux/selectors';
 import { logoutUserAsync } from './User/redux/actions';

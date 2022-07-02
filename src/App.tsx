@@ -5,10 +5,10 @@ import { Login } from './Components/User/Login';
 import { NavMenu } from './Components/NavMenu';
 import { Register } from './Components/User/Register';
 
-import './Styles/custom.css'
+import './styles/custom.css'
 import { BookHandler } from './Components/Book/BookHandler';
-import './Styles/bootstrap.css';
-import './Styles/AuthForm.css';
+import './styles/bootstrap.css';
+import './styles/authForm.css';
 import { NotFound } from './Components/NotFound';
 import { BookInfo } from './Components/Book/BookInfo';
 import { useAppDispatch } from './hooks';

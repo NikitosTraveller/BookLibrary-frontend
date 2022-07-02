@@ -2,7 +2,7 @@
 import {BookUploader} from './BookUploader';
 import {BookList} from './BookList';
 
-import '../../Styles/BooksPage.css';
+import '../../styles/booksPage.css';
 import { Outlet } from 'react-router';
 
 export function BookHandler()
