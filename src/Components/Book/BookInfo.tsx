@@ -1,6 +1,6 @@
 ﻿import {useEffect} from 'react';
-import { CommentCreator } from '../Comment/CommentCreator';
-import { CommentList } from '../Comment/CommentList';
+import { CommentCreator } from '../comment/commentCreator';
+import { CommentList } from '../comment/commentList';
 
 import '../../styles/bookInfoPage.css';
 import { useParams } from 'react-router';

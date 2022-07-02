@@ -10,7 +10,7 @@ import {
   getBooksAsync,
 } from './redux/actions';
 import { selectBooks } from './redux/selectors';
-import { selectUser } from '../User/redux/selectors';
+import { selectUser } from '../user/redux/selectors';
 
 
 export function BookList()

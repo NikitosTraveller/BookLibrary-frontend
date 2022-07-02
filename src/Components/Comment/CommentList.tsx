@@ -5,7 +5,7 @@ import { DateHelper } from "../../helpers/dateHelper";
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { selectComments } from './redux/selectors';
 import { deleteCommentAsync, getCommentsAsync } from './redux/actions';
-import { selectUser } from '../User/redux/selectors';
+import { selectUser } from '../user/redux/selectors';
 
 interface IProps
 {

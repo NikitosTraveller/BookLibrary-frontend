@@ -1,6 +1,6 @@
 ﻿import React from 'react';
-import {BookUploader} from './BookUploader';
-import {BookList} from './BookList';
+import {BookUploader} from './bookUploader';
+import {BookList} from './bookList';
 
 import '../../styles/booksPage.css';
 import { Outlet } from 'react-router';

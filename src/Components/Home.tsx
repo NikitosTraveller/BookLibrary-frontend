@@ -1,5 +1,5 @@
 ﻿import { useAppSelector } from '../hooks';
-import { selectUser } from './User/redux/selectors';
+import { selectUser } from './user/redux/selectors';
 
 
 export function Home() {

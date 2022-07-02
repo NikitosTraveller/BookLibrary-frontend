@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { Action } from 'redux';
 import { ThunkAction } from 'redux-thunk';
-import booksReducer from '../src/Components/Book/redux/reducers';
-import commentsReducer from '../src/Components/Comment/redux/reducers';
-import userReducer from '../src/Components/User/redux/reducers';
+import booksReducer from './components/book/redux/reducers';
+import commentsReducer from './components/comment/redux/reducers';
+import userReducer from './components/user/redux/reducers';
 
 export const store = configureStore({
   reducer: {

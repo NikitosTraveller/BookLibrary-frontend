@@ -1,18 +1,18 @@
 import { useEffect } from 'react';
 import { Route, Routes } from 'react-router';
-import { Home } from './Components/Home';
-import { Login } from './Components/User/Login';
-import { NavMenu } from './Components/NavMenu';
-import { Register } from './Components/User/Register';
+import { Home } from './components/home';
+import { Login } from './components/user/login';
+import { NavMenu } from './components/navMenu';
+import { Register } from './components/user/register';
 
 import './styles/custom.css'
-import { BookHandler } from './Components/Book/BookHandler';
+import { BookHandler } from './components/book/bookHandler';
 import './styles/bootstrap.css';
 import './styles/authForm.css';
-import { NotFound } from './Components/NotFound';
-import { BookInfo } from './Components/Book/BookInfo';
+import { NotFound } from './components/notFound';
+import { BookInfo } from './components/book/bookInfo';
 import { useAppDispatch } from './hooks';
-import { getUserAsync } from './Components/User/redux/actions';
+import { getUserAsync } from './components/user/redux/actions';
 
 
 export default function App() {

@@ -1,8 +1,8 @@
 ﻿import { Link, useNavigate } from 'react-router-dom';
 import '../styles/navMenu.css';
 import { useAppDispatch, useAppSelector } from '../hooks';
-import { selectUser } from './User/redux/selectors';
-import { logoutUserAsync } from './User/redux/actions';
+import { selectUser } from './user/redux/selectors';
+import { logoutUserAsync } from './user/redux/actions';
 
 export function NavMenu() {
 

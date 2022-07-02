@@ -11,7 +11,7 @@ import {
     FieldControl,
     Validators,
  } from "react-reactive-form";
-import { PasswordInput, TextInput } from '../Form';
+import { PasswordInput, TextInput } from '../form';
 
 export function Register()
 {
