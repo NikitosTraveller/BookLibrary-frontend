@@ -1,7 +1,7 @@
 ﻿import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { apiUrl } from "../../../../appconfig";
-import { UserModel } from "../../../../models/UserModel";
+import { UserModel } from "../../../../models/userModel";
 
 export const getUserAsync = createAsyncThunk(
     'userSlice/getUser',

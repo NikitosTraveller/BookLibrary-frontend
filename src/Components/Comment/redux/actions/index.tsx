@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { apiUrl } from "../../../../appconfig";
-import { CommentModel } from "../../../../models/CommentModel";
+import { CommentModel } from "../../../../models/commentModel";
 
 export const getCommentsAsync = createAsyncThunk(
     'commentSlice/getComments',

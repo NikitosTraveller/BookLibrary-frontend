@@ -1,6 +1,6 @@
 ﻿import { useEffect } from 'react';
-import { Comment } from '../../models/Comment';
-import { DateHelper } from "../../helpers/DateHelper";
+import { Comment } from '../../models/comment';
+import { DateHelper } from "../../helpers/dateHelper";
 
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { selectComments } from './redux/selectors';

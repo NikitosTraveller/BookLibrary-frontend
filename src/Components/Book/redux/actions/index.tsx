@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { apiUrl } from "../../../../appconfig";
-import { BookModel } from "../../../../models/BookModel";
+import { BookModel } from "../../../../models/bookModel";
 
 export const getBooksAsync = createAsyncThunk(
     'bookSlice/getBooks',

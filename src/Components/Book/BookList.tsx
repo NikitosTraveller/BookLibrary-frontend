@@ -1,6 +1,6 @@
 ﻿import {useEffect} from 'react';
-import { Book } from '../../models/Book';
-import { DateHelper } from "../../helpers/DateHelper";
+import { Book } from '../../models/book';
+import { DateHelper } from "../../helpers/dateHelper";
 
 import { Link } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../hooks';

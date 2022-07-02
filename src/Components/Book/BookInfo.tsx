@@ -7,7 +7,7 @@ import { useParams } from 'react-router';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { getSelectedBook } from './redux/selectors';
 import { downloadBookAsync, getBookAsync } from './redux/actions';
-import { BookModel } from '../../models/BookModel';
+import { BookModel } from '../../models/bookModel';
 
 export function BookInfo()
 {
