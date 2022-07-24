@@ -18,7 +18,7 @@ export function CommentCreator(props : IProps)
 
     const writeComment = (e : any) =>
     {
-        let commentText : string = e.target.value;
+        const commentText : string = e.target.value;
         setCommentMessage(commentText);
     };
 
@@ -26,14 +26,14 @@ export function CommentCreator(props : IProps)
     {
         e.preventDefault();
 
-        let message = commentMessage.trim();
+        const message = commentMessage.trim();
 
         if(message === '')
         {
             return;
         }
 
-        let model = new CommentModel();
+        const model = new CommentModel();
         model.bookId = props.bookId;
         model.message = message;
 

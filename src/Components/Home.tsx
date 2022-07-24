@@ -1,5 +1,6 @@
 ﻿import { useAppSelector } from '../hooks';
 import { selectUser } from './user/redux/selectors';
+import React from 'react';
 
 
 export function Home() {

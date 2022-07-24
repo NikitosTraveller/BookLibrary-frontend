@@ -33,14 +33,8 @@ import { initialState } from "../state";
         .addCase(deleteBookAsync.fulfilled, (state, action: PayloadAction<number>) => {
           state.books= state.books.filter(book => book.id != action.payload);
         })
-
-        .addCase(downloadBookAsync.fulfilled, (state, action: PayloadAction<Book[]>) => {
-          
-        });
     },
   });
-  
-  export const {  } = bookSlice.actions;
   
   export default bookSlice.reducer;
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const TextInput = ({ handler, touched, hasError, meta }) => (
     <div>
       <input className="form-control" placeholder={`${meta.label}`} {...handler()}/>

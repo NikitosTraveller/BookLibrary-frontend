@@ -4,7 +4,7 @@ export abstract class DateHelper
 {
     static FormatDate(dateTime : string) : string
     {
-        let date = new Date(dateTime);
+        const date = new Date(dateTime);
         return (moment(date)).format('YYYY-MMM-DD HH:mm');
     }
 }

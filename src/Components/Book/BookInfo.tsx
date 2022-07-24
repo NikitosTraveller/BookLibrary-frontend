@@ -1,4 +1,4 @@
-﻿import {useEffect} from 'react';
+﻿import React, {useEffect} from 'react';
 import { CommentCreator } from '../comment/commentCreator';
 import { CommentList } from '../comment/commentList';
 
@@ -30,7 +30,7 @@ export function BookInfo()
     {
         if (selectedBook != null && selectedBook != undefined && selectedBook.id > 0)
         {
-            let model = new BookModel();
+            const model = new BookModel();
             model.id = selectedBook.id;
             model.name = selectedBook.name;
 

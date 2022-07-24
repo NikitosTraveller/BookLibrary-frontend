@@ -1,4 +1,4 @@
-﻿import {SyntheticEvent} from 'react';
+﻿import React, {SyntheticEvent} from 'react';
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { registerUserAsync } from './redux/actions';
@@ -26,7 +26,7 @@ export function Register()
 
     const dispatch = useAppDispatch();
     
-    let navigate = useNavigate();
+    const navigate = useNavigate();
 
     const redirect = useAppSelector(loginRedirect);
 
@@ -34,10 +34,10 @@ export function Register()
     {
         e.preventDefault();
         
-        let model = new UserModel();
+        const model = new UserModel();
         model.firstName = registrationForm.get('firstName').value;
-        model.lastName = registrationForm.get('lastName').value;;
-        model.username = registrationForm.get('username').value;;
+        model.lastName = registrationForm.get('lastName').value;
+        model.username = registrationForm.get('username').value;
         model.password = registrationForm.get('password').value.trim();
 
         dispatch(registerUserAsync(model));

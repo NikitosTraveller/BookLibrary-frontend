@@ -33,7 +33,7 @@ export function BookUploader()
             setFileName('');
             setUploadEnabled(false);
             })
-            .then(() => fileInputRef.current.value = '');;
+            .then(() => fileInputRef.current.value = '');
     };
 
         return (

@@ -35,8 +35,6 @@ import { getUserAsync, loginUserAsync, logoutUserAsync, registerUserAsync } from
     },
   });
   
-  export const {  } = userSlice.actions;
-  
   export default userSlice.reducer;
 
   

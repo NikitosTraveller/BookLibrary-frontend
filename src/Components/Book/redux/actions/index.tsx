@@ -56,8 +56,8 @@ export const getBooksAsync = createAsyncThunk(
             responseType: "arraybuffer",
         }).then(response => response.data).then(result => {
 
-            let blob = new Blob([result]);
-            let link = document.createElement('a');
+            const blob = new Blob([result]);
+            const link = document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
             link.download = bookModel.name;
             document.body.appendChild(link);

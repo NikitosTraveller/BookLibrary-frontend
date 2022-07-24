@@ -1,4 +1,4 @@
-﻿import {SyntheticEvent, useState} from 'react';
+﻿import React, {SyntheticEvent, useState} from 'react';
 import { useNavigate } from "react-router-dom";
 import { UserModel } from '../../models/userModel';
 import { useAppDispatch } from '../../hooks';
@@ -22,7 +22,7 @@ export function Login()
 
     const dispatch = useAppDispatch();
     
-    let navigate = useNavigate();
+    const navigate = useNavigate();
     
     const [redirect, setRedirect] = useState(false);
 
@@ -30,9 +30,9 @@ export function Login()
     {
         e.preventDefault();
 
-        let model = new UserModel();
+        const model = new UserModel();
 
-        model.username = loginForm.get('username').value;;
+        model.username = loginForm.get('username').value;
         model.password = loginForm.get('password').value.trim();
 
         dispatch(loginUserAsync(model))

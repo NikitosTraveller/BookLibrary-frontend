@@ -29,8 +29,6 @@ import { initialState } from "../state";
         })
     },
   });
-
-  export const {  } = commentSlice.actions;
   
   export default commentSlice.reducer;
 
